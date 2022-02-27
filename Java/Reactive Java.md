@@ -56,4 +56,7 @@
 
 # Subscription
 
-WIP
+- Publisher 와 Subscriber 사이에 중간 역할을 한다.
+- Publisher 가 발행한 요소들을 Subscriber 에게 전달해주는 역할이다.
+- Backpressure 를 주어 Publisher 와 Subscriber 간의 처리 속도의 텀을 조절 할 수 있는 역할을 할 수 있다.
+- 물론, 구독을 취소시켜버릴 수 도 있다.
